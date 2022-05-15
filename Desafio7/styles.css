@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+header h1{
+    margin-left: 1vw;
+    margin-top: 2vh;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+header nav{
+    width: 20%;
+    margin-top: 2vh;
+    margin-left: 4vw;
+ }
+
+header li{
+  margin-top: 2vh;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+header h2{
+  margin-left: 1vw;
+  font-size:20px;
+  font-weight: 400;
+  margin-top: 4vw;
+}
+
+header button{
+  margin-left:1vw;
+  margin-top:2vw;
+  width:1.5rem;
+  height:1.5rem;
+}
+
+header p{
+    margin-top: 3vw;
+    margin-left:1vw;
+    font-weight: 400;
+  }
+  
+  
+main h2{
+    margin-left: 1vw;
+    font-weight: 500;
+    font-size:22px;
+    margin-top:2vw;
+    margin-bottom: 4vh;
+  }
+
+.img1{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+
+.cards{
+  width: 210px;
+  height:180px;
+  margin-top: 3vw;
+  margin-left: 1vw;
+  
+}
+
+.p2{
+  margin-left: 1vw;
+  line-height: 30px;
+}
+
+.alinhamento{
+  float: left;
+}
+
+.btn_main{
+  background-color:#CDCDD2;
+  width:110px;
+  height: 35px;
+  text-align: center;
+  font-size:15px;
+  font-weight: 400;
+  margin-left: 1vw;
+  box-shadow: 0 2px 2px 1px #a5a5a5;
+  cursor: pointer;
+}
+
+.btn_main2{
+  background-color:#CDCDD2;
+  width:180px;
+  height: 35px;
+  text-align: center;
+  font-size:15px;
+  font-weight: 400;
+  margin-left: 1vw;
+  box-shadow: 0 2px 2px 1px #a5a5a5;
+}
+
+.btnCard{
+  background-color:#CDCDD2;
+  width:65px;
+  height: 25px;
+  text-align: center;
+  font-size:15px;
+  font-weight: 400;
+  margin-left: 1vw;
+  box-shadow: 0 2px 2px 1px #a5a5a5;
+  cursor: pointer;
+}
+
+.btn{
+  background-color:#CDCDD2;
+  margin-top:5vh;
+  margin-left:1vw;
+  width:125px;
+  font-size:15px;
+  height:35px;
+}
+  
+.container_text--paragraph{
+  font-size:16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align:left;
+  width:90%;
+  margin-top:1rem;
+  margin-left: 1vw;
+}
+
+.p2 h1{
+  margin-left: 1vw;
+  margin-top: 2vh;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+footer{
+  margin-top: 40px;
+}
+
+footer img{
+  width: 70px;
+  height: 40px;
+  margin: 10px;
+}
