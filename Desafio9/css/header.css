@@ -1,0 +1,29 @@
+header {
+    background-color: #129799;
+}
+
+.headerNav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 80px;
+}
+
+.headerItem{
+   font-size: 30px;
+   cursor: pointer;
+   color: #Ffffff;
+}
+
+.tituloBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px
+}
+
+.tituloBox h2 {
+   color: #fff;
+   font-size: 64px;
+}
