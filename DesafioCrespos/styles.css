@@ -60,6 +60,8 @@ header input{
     height: 4vh;
     border:solid 2px;
     border-radius: 20px;
+    image-orientation :url(./assets/busca.png);
+    background-repeat: no-repeat;
 }
 
 header input::placeholder{
