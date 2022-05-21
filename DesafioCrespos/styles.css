@@ -40,28 +40,25 @@ header ul{
 }
 
 header form{
-    width:30%;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
-
-header label{
-    font-size:18px;
-    cursor: pointer;
-    margin-left: 3vw;
-    border: #9767A9;
-}
-
 header input{
     padding: 10px;
+    padding-left: 5vh;
     color: #9767A9;
-    height: 4vh;
+    height: 3vh;
+    width: 20vh;
     border:solid 2px;
-    border-radius: 20px;
-    image-orientation :url(./assets/busca.png);
+    border-radius: 15px;
+    background-image :url(./assets/busca.png);
     background-repeat: no-repeat;
+    background-position: 3%;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 header input::placeholder{
