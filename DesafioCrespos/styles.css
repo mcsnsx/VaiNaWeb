@@ -25,11 +25,13 @@ header{
     justify-content: flex-end;
 }
 
-header nav{
+.menu{
     width:100%;
+    display: flex;
 }
 
-header ul{
+.menu ul{
+    position: relative;
     width: 95%;
     color: #9767A9;
     display: flex;
@@ -40,15 +42,61 @@ header ul{
     justify-content: space-evenly;
 }
 
-header li:hover{
+.menu li:hover{
+    display: block;
     cursor: pointer;
     color:#9767A9;
     font-weight: 600;
 }
 
+label[for="botaoMenu"]{
+    padding: 5px;
+    background-color: #9767A9;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#botaoMenu{
+    display: none;
+}
+
+label[for="botaoMenu"]{
+    display: none;
+}
+
+@media(max-width: 800px){
+    label[for="botaoMenu"]{
+        display: block;
+    }
+
+    #botaoMenu:checked ~ .menu{
+        margin-left: 0;
+    }
+
+    .menu{
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4s;
+    }
+
+
+    .menu ul li{
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+
+}
+
 header input{
     padding: 10px;
-    padding-left: 5vh;
+    padding-left: 40px;
     color: #9767A9;
     height: 3vh;
     width: 20vh;
