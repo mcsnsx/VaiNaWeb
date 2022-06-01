@@ -1,0 +1,34 @@
+main{
+    color: #fff;
+}
+
+.capa{
+    background-image: url(../assets/img1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    flex-direction: column;
+}
+
+.capa h1{
+    display: flex;
+    font-size: 10vw;
+    width: 50%;
+    justify-content: center;
+    margin-left: 70px;
+    position: relative;
+    top: 100px;
+    gap: 290px;
+}
+
+.capa p{
+    display: flex;
+    font-size: 5vw;
+    justify-content: center;
+    width: 50%;
+    margin-left: 70px;
+    position: relative;
+    top: 100px;
+    gap: 290px;
+}
