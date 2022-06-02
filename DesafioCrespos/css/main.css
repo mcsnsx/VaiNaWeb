@@ -63,13 +63,36 @@ main{
 .blocoDois{
     position: block;
     margin-top: -4rem;
+    width: 50%;
 }
 
 .blocoDois img{
     width: 300px;
-    margin-left: 5rem;
+    margin-left: 7rem;
     display: relative;
-    width: 47%;
-    padding: 10px;
-    
+    width: 90%;   
+}
+
+.blocoDois h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoDois p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCard{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 13rem;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    padding: 20px;
 }
