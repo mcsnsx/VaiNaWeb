@@ -2,6 +2,10 @@ main{
     color: #fff;
 }
 
+.divisao{
+    display: flex;
+}
+
 .capa{
     background-image: url(../assets/img1.png);
     background-repeat: no-repeat;
@@ -88,11 +92,48 @@ main{
     margin-top: 18px;
 }
 
-.fundoCard{
+.fundoCardDois{
     background-color: #9767A9;
     position: relative;
     margin-left: 13rem;
     margin-right: 3rem;
     margin-top: -8rem;
+    padding: 20px;
+}
+
+.blocoTres{
+    position: block;
+    margin-top: 15rem;
+    width: 50%;
+}
+
+.blocoTres img{
+    width: 300px;
+    margin-left: 4rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoTres h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoTres p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardTres{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 9rem;
+    margin-right: 7rem;
+    margin-top: -9rem;
     padding: 20px;
 }
