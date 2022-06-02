@@ -47,7 +47,7 @@ main{
 .blocoUm h1{
     display: flex;
     font-size: 3.6vw;
-    width: 60%;
+    width: 58%;
     padding: 10px;
     position: block;
     margin-left: 4rem;
@@ -55,18 +55,18 @@ main{
 
 .blocoUm p{
     display: flex;
-    font-size: 1.3vw;
-    width: 40%;
+    font-size: 1.2vw;
+    width: 38%;
     position: block;
     padding: 15px;
     margin: 25px;
     margin-left: none;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .blocoDois{
     position: block;
-    margin-top: -4rem;
+    margin-top: -6rem;
     width: 50%;
 }
 
@@ -103,7 +103,7 @@ main{
 
 .blocoTres{
     position: block;
-    margin-top: 15rem;
+    margin-top: 13rem;
     width: 50%;
 }
 
@@ -136,4 +136,202 @@ main{
     margin-right: 7rem;
     margin-top: -9rem;
     padding: 20px;
+}
+
+.blocoQuatro{
+    position: block;
+    margin-top: -11rem;
+    width: 50%;
+}
+
+.blocoQuatro img{
+    width: 300px;
+    margin-left: 7rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoQuatro h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoQuatro p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardQuatro{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 13rem;
+    margin-right: 3rem;
+    margin-top: -9rem;
+    padding: 20px;
+}
+
+.blocoCinco{
+    position: block;
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.blocoCinco img{
+    width: 300px;
+    margin-left: 4rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoCinco h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoCinco p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardCinco{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 9rem;
+    margin-right: 7rem;
+    margin-top: -2rem;
+    padding: 20px;
+}
+
+.blocoSeis{
+    position: block;
+    margin-top: -18rem;
+    width: 50%;
+}
+
+.blocoSeis img{
+    width: 300px;
+    margin-left: 7rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoSeis h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoSeis p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardSeis{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 13rem;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    padding: 20px;
+}
+
+.blocoSete{
+    position: block;
+    margin-top: -2rem;
+    width: 50%;
+}
+
+.blocoSete img{
+    width: 300px;
+    margin-left: 4rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoSete h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoSete p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardSete{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 9rem;
+    margin-right: 7rem;
+    margin-top: -9rem;
+    padding: 20px;
+}
+
+.blocoOito{
+    position: block;
+    margin-top: -11rem;
+    width: 50%;
+}
+
+.blocoOito img{
+    width: 300px;
+    margin-left: 7rem;
+    display: relative;
+    width: 90%;   
+}
+
+.blocoOito h1{
+    display: flex;
+    font-size: 1.8vw;
+    width: 70%;
+    position: block;
+}
+
+.blocoOito p{
+    display: flex;
+    font-size: 0.vw;
+    width: 100%;
+    position: block;
+    margin-top: 18px;
+}
+
+.fundoCardOito{
+    background-color: #9767A9;
+    position: relative;
+    margin-left: 13rem;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    padding: 20px;
+}
+
+.blocoNove{
+    position: block;
+    margin-top: 13rem;
+    width: 35%;
+}
+
+.blocoNove img{
+    width: 20px;
+    margin-left: 10rem;
+    display: relative;
+    width: 90%;   
 }
