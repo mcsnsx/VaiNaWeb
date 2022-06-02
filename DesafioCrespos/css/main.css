@@ -42,8 +42,8 @@ main{
 
 .blocoUm h1{
     display: flex;
-    font-size: 3vw;
-    width: 50%;
+    font-size: 3.6vw;
+    width: 60%;
     padding: 10px;
     position: block;
     margin-left: 4rem;
@@ -51,10 +51,25 @@ main{
 
 .blocoUm p{
     display: flex;
-    font-size: 1.6vw;
-    width: 50%;
+    font-size: 1.3vw;
+    width: 40%;
     position: block;
-    margin: 20px;
+    padding: 15px;
+    margin: 25px;
     margin-left: none;
+    margin-bottom: 60px;
+}
+
+.blocoDois{
+    position: block;
+    margin-top: -4rem;
+}
+
+.blocoDois img{
+    width: 300px;
+    margin-left: 5rem;
+    display: relative;
+    width: 47%;
+    padding: 10px;
     
 }
