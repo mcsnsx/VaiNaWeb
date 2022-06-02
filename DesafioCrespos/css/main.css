@@ -338,3 +338,41 @@ main{
     display: relative;
     width: 70%;   
 }
+
+.containerFotos{
+    flex-direction: row;
+    display: flex;
+}
+
+.containerFotos img{
+    padding: 5px;
+}
+
+.divImagensUm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.divImagensDois{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.divImagensTres{
+    display: flex;
+    flex-direction: column;
+    width: 199px;
+}
+.divImagensQuatro{
+    display: flex;
+    flex-direction: column;
+    width: 299px;
+}
+.divImagensCinco{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
