@@ -86,10 +86,10 @@ main{
 
 .blocoDois p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardDois{
@@ -98,12 +98,13 @@ main{
     margin-left: 13rem;
     margin-right: 3rem;
     margin-top: -8rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoTres{
     position: block;
     margin-top: 13rem;
+    margin-right: 3rem;
     width: 50%;
 }
 
@@ -123,10 +124,10 @@ main{
 
 .blocoTres p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardTres{
@@ -135,7 +136,7 @@ main{
     margin-left: 9rem;
     margin-right: 7rem;
     margin-top: -9rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoQuatro{
@@ -160,10 +161,10 @@ main{
 
 .blocoQuatro p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardQuatro{
@@ -172,12 +173,13 @@ main{
     margin-left: 13rem;
     margin-right: 3rem;
     margin-top: -9rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoCinco{
     position: block;
     margin-top: 5rem;
+    margin-right: 3rem;
     width: 50%;
 }
 
@@ -197,19 +199,19 @@ main{
 
 .blocoCinco p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardCinco{
     background-color: #9767A9;
     position: relative;
     margin-left: 9rem;
-    margin-right: 7rem;
+    margin-right: 6rem;
     margin-top: -2rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoSeis{
@@ -234,10 +236,10 @@ main{
 
 .blocoSeis p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardSeis{
@@ -246,12 +248,13 @@ main{
     margin-left: 13rem;
     margin-right: 3rem;
     margin-top: -8rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoSete{
     position: block;
-    margin-top: -2rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
     width: 50%;
 }
 
@@ -271,10 +274,10 @@ main{
 
 .blocoSete p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardSete{
@@ -283,7 +286,7 @@ main{
     margin-left: 9rem;
     margin-right: 7rem;
     margin-top: -9rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoOito{
@@ -308,10 +311,10 @@ main{
 
 .blocoOito p{
     display: flex;
-    font-size: 0.vw;
+    font-size: 1vw;
     width: 100%;
     position: block;
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .fundoCardOito{
@@ -320,18 +323,18 @@ main{
     margin-left: 13rem;
     margin-right: 3rem;
     margin-top: -8rem;
-    padding: 20px;
+    padding: 15px;
 }
 
 .blocoNove{
     position: block;
     margin-top: 13rem;
-    width: 35%;
+    margin-right: 50px;
+    width: 50%;
 }
 
 .blocoNove img{
-    width: 20px;
     margin-left: 10rem;
     display: relative;
-    width: 90%;   
+    width: 70%;   
 }
