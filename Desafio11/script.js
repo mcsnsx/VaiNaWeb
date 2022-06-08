@@ -28,4 +28,4 @@ let quartaFeira = true
 console.log (quartaFeira)
 
 // Exiba no console o tipo de dado da váriavel quartaFeira;
-console (typeof quartaFeira)
+console.log (typeof quartaFeira)
