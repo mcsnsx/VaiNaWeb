@@ -15,7 +15,7 @@ main{
     height: 550px;
     flex-direction: row;
     display: flex;
-    position: block;
+    position: relative;
 }
 
 .capa h1{
@@ -23,7 +23,7 @@ main{
     font-size: 4.2vw;
     width: 50%;
     padding: 130px;
-    position: block;
+    position: obsolute;
     margin-top: 8rem;
     margin-left: 4rem;
 }
@@ -34,7 +34,7 @@ main{
     padding: 150px;
     width: 50%;
     margin-right: 4rem;
-    position: relative;
+    position: obsolute;
     top: 155px;
 }
 
@@ -349,6 +349,7 @@ main{
 
 .containerFotos img{
     padding: 5px;
+    display: none;
 }
 
 .divImagensUm{
@@ -377,5 +378,10 @@ main{
     flex-direction: column;
     width: 200px;
 }
+
+@media (max-width:1224px){
+
+}
+
 
 
