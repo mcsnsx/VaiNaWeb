@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif
+}
+
+body {
+  display: flex;
+}
+
+.ladoA {
+  margin-top: 20px;
+  padding: 10px 20px;
+}
+
+.ladoA figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forms input {
+  width: 400px;
+  height: 70px;
+  border-radius: 5px;
+  background-color: #e8e6e6;
+  border: #e8e6e6;
+  margin-top: 10px;
+  outline-color: rgb(77, 207, 250);
+  padding-left: 20px;
+}
+
+/* .form input:active{
+  border: 1px solid #2051ff;
+} */
+.forms input::placeholder {
+   justify-content: center;
+   align-items: center;
+}
+
+.icones {
+  display: flex;
+  width: 400px;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 32px;
+}
+
+.icones .box {
+  width: 110px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.icones .iconeFacebook {
+  background-color: #2051ff;
+}
+
+.icones .iconeGoogle {
+  background-color: #8a0000;
+}
+
+.icones .iconeApple {
+  background-color: #000000;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.login .inputCheck {
+  width: 18px;
+  height: 18px;
+  background-color: #e8e6e6;
+}
+
+.login label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.icones img {
+  width: 40;
+  height: 40;
+  margin-top: 5px;
+}
+
+.ladoB img {
+  width: 100%;
+  height: 100%;
+}
+
+.acessar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.acessar .botao {
+  width: 51px;
+  height: 47px;
+  background: rgba(255, 0, 46, 0.21);
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.acessar img{
+    margin-top: 5px;
+}
+
+.acessar p, a {
+    text-decoration: none;
+    color: #A6A6A6;
+}
+
+button.botao-logado {
+  background-color: #FF002E;
+  width: 51px;
+  height: 47px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
