@@ -14,4 +14,4 @@ Para o curso Vai Na Web - Modulo 1, layouts propostos pelo curso com o desafio d
 
 <hr>
 
-* Status: Em andamento.
+* Status: Concluído.
